@@ -6,6 +6,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 video{
     width: 100%;
 }
@@ -18,6 +23,15 @@ h3:hover{
 
 }
 
+a:hover {
+    color: #ffeb3b;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 /*****************************************************************************************************
     Classes
 *****************************************************************************************************/
@@ -83,9 +97,19 @@ header,
     height: 91%;
 }
 
-/*****************************************************************************************************
-    ID
-*****************************************************************************************************/
+.form-connexion{
+    width: 50%;
+    margin: auto;
+    width: 800px;
+    padding-top: 100px;
+}
+
+.login{
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+}
+
 
 #main {
     position: relative;
@@ -126,3 +150,24 @@ header,
     opacity: 0.5;
     z-index: 1;
 }
+
+/* Classe test */
+
+@media screen and (max-width: 1100px){
+    .form-connexion{
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .form-connexion{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .form-connexion{
+        width: 350px;
+    }
+}
+

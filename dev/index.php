@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="mdb-color lighten-5">
 <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
         <a class="navbar-brand" href="#">
@@ -48,7 +48,7 @@
     </nav>
     <header id="main">
         <section class="intro-video">
-            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <video muted playsinline="playsinline" autoplay="autoplay"  loop="loop">
                 <source src="img/Main_2.mp4" type="video/mp4">
             </video>
         </section>
@@ -76,6 +76,7 @@
         </div>
     </header>
 </header>
+
 
 <div class="container-fluid text-center">
     <section>
