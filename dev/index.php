@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="mdb-color lighten-5">
 <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
         <a class="navbar-brand" href="#">
@@ -46,10 +46,10 @@
             </ul>
         </div>
     </nav>
-    <header>
+    <header id="main">
         <div class="overlay"></div>
         <section class="intro-video">
-            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <video muted playsinline="playsinline" autoplay="autoplay"  loop="loop">
                 <source src="img/Main_2.mp4" type="video/mp4">
             </video>
         </section>
@@ -84,12 +84,6 @@
             </div>
         </div>
     </header>
-
-    <section class="view intro-video">
-        <video poster="img/Main_2.mp4" playsinline autoplay loop>
-            <source src="img/Main_2.mp4" type="video/mp4">
-        </video>
-    </section>
 
 </header>
 <!-- Start your project here-->
