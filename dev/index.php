@@ -16,7 +16,7 @@
     <link href="css/style.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -35,7 +35,7 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">A propos</a>
                 </li>
                 <li class="nav-item mr-3">
                     <a class="nav-link" href="#">Connexion</a>
@@ -46,8 +46,7 @@
             </ul>
         </div>
     </nav>
-    <header>
-        <div class="overlay"></div>
+    <header id="main">
         <section class="intro-video">
             <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
                 <source src="img/Main_2.mp4" type="video/mp4">
@@ -65,33 +64,30 @@
                                 </div>
                             </div>
                         </div>
-                        <form class="form-inline md-form form-sm active-cyan-2 mt-3 justify-content-center">
-                            <input class="form-control form-control-sm mr-3 w-50" type="text" placeholder="Search"
-                                   aria-label="Search" style="color: white;">
+                        <!-- Search form -->
+                        <form class="form-inline form-sm active-cyan-2 mt-3 justify-content-center">
+                            <input class="form-control form-control-sm mr-3 w-50 text-center" type="text"
+                                   placeholder="Recherche ..."
+                                   aria-label="Recherche ..." style="color: #3f51b5;">
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="justify-content-center text-center">
-                <ul class="nav justify-content-center" style="position: absolute; bottom: 0;">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!"><h3 class="miniMenuIndex">Sneakers</h3></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!"><h3 class="miniMenuIndex">Streetwear</h3></a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </header>
-
-    <section class="view intro-video">
-        <video poster="img/Main_2.mp4" playsinline autoplay loop>
-            <source src="img/Main_2.mp4" type="video/mp4">
-        </video>
-    </section>
-
 </header>
+
+<div class="container-fluid text-center">
+    <section>
+        <article>
+            <ul class="inline list-inline">
+                <li class="list-inline-item"><h3 class="bigFont mr-3">Sneakers</h3></li>
+                <li class="list-inline-item"><h3 class="bigFont ml-3">Streetwear</h3></li>
+            </ul>
+        </article>
+    </section>
+</div>
+
 <!-- Start your project here-->
 <div style="height: 100vh">
 </div>
