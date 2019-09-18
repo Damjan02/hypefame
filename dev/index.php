@@ -18,8 +18,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
 </head>
-<body class="mdb-color lighten-5">
-<header>
+<body>
+<header class="indexAccueil">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
         <a class="navbar-brand" href="#">
             <div class="logo animated fadeInDown" style="background-image: url('./img/svg/logo_nav.svg');"></div>
