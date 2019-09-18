@@ -113,7 +113,7 @@
 
             <!--Grid column-->
             <div class="col-md-12">
-                <p class="font-small white-text d-flex justify-content-end">Pas encore de compte ? <a href="#" class=" ml-1 font-weight-bold"> S'inscrire</a></p>
+                <p class="font-small white-text d-flex justify-content-end">Pas encore de compte ? <a href="./login.php" class=" ml-1 font-weight-bold"> S'inscrire</a></p>
             </div>
             <!--Grid column-->
 

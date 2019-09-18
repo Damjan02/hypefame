@@ -26,50 +26,52 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
 </head>
-<body class="mdb-color lighten-5">
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark indigo">
+<body class="blue-gradient">
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark indigo">
 
-        <a class="navbar-brand" href="#">
-            <div class="logo animated fadeInDown" style="background-image: url('img/svg/logo_nav.svg');"></div>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto"></ul>
-            <ul class="navbar-nav nav-flex-icons">
-                <li class="nav-item active mr-3">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item mr-3">
-                    <a class="nav-link" href="#">Vendre</a>
-                </li>
-                <li class="nav-item mr-3">
-                    <a class="nav-link" href="login.php">Connexion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">A propos</a>
-                </li>
-            </ul>
-        </div>
+    <a class="navbar-brand" href="./index.php">
+        <div class="logo animated fadeInDown" style="background-image: url('img/svg/logo_nav.svg');"></div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"></ul>
+        <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item active mr-3">
+                <a class="nav-link" href="./index.php">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mr-3">
+                <a class="nav-link" href="#">Vendre</a>
+            </li>
+            <li class="nav-item mr-3">
+                <a class="nav-link" href="login.php">Connexion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">A propos</a>
+            </li>
+        </ul>
+    </div>
 
-    </nav>
-    <!--/.Navbar-->
+</nav>
+<!--/.Navbar-->
 
 <!--Section: Live preview-->
 <section class="form-dark form-connexion">
 
     <!--Form without header-->
-    <div class="card card-image" style="background-image: url('img/connexion.jpg');  background-size: cover;">
-        <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
-
-            <!--Header-->
-            <div class="text-center">
-                <h3 class="white-text mb-5 mt-4 font-weight-bold text-uppercase animated fadeInDown slow"><a class="white-text font-weight-bold"><strong>"Connexion"</strong></a></h3>
-                <span class="border-bottom border-primary" style="border-bottom: 2px solid !important;"></span>
-            </div>
+    <div class="card card-image" style="background-image: url('./img/bg.jpg');  background-size: cover;">
+        <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4 text-center">
+            <div class="col-lg-12 col-sm-12">
+                <div class="col-lg-6 col-sm-12" style="margin: auto;">
+                    <div class="text-center typewriter" style="margin: auto;">
+                        <h3 class="white-text mb-5 mt-4 font-weight-bold text-uppercase">
+                            <a class="white-text font-weight-bold"><strong>"Connexion"</strong></a></h3>
+                        <span class="border-bottom border-primary" style="border-bottom: 2px solid !important;"></span>
+                    </div>
+                </div>
 
 
             <!--Body-->
@@ -99,7 +101,7 @@
 
             <!--Grid column-->
             <div class="col-md-12">
-                <p class="font-small white-text d-flex justify-content-end">Pas encore de compte ? <a href="#" class=" ml-1 font-weight-bold"> S'inscrire</a></p>
+                <p class="font-small white-text d-flex justify-content-end">Pas encore de compte ? <a href="./register.php" class=" ml-1 font-weight-bold"> S'inscrire</a></p>
             </div>
             <!--Grid column-->
 

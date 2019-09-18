@@ -98,7 +98,6 @@ footer{
 }
 
 .bigFont{
-    font-family: 'Squada One', cursive !important;
     font-variant: small-caps;
     margin: auto;
     font-size: 30pt;
@@ -118,16 +117,14 @@ footer{
     background-color: #3f51b5;
 }
 
+.card-login{
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+}
+
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: #3f51b5;
     }
-}
-
-html,
-body,
-header,
-.view {
 }
 
 .form-connexion{
@@ -151,6 +148,13 @@ header,
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
+    z-index:0;
+}
+
+.alignSubMenu{
+    position:absolute;
+    margin-top: -2%;
+    z-index: 1;
 }
 
 #main video {
@@ -184,14 +188,21 @@ header,
     z-index: 1;
 }
 
+#fond-connexion{
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    z-index: -2;
+}
+
 /* Classe test */
 
 @media screen and (max-width: 1100px){
     .form-connexion{
         width: 900px;
     }
-
-
 }
 
 @media screen and (max-width: 800px){
@@ -235,9 +246,5 @@ header,
         from, to { border-color: transparent }
         50% { border-color: orange }
     }
-}
-
-.indexAccueil{
-    height: 91%;
 }
 
