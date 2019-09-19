@@ -26,12 +26,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
 </head>
-<body class="blue-gradient">
+<body class="heavy-rain-gradient">
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark indigo">
-
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar deep-purple darken-3">
     <a class="navbar-brand" href="./index.php">
-        <div class="logo animated fadeInDown" style="background-image: url('img/svg/logo_nav.svg');"></div>
+        <div class="logo animated fadeInDown" style="background-image: url('./img/svg/logo_nav.svg');"></div>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,19 +46,18 @@
                 <a class="nav-link" href="#">Vendre</a>
             </li>
             <li class="nav-item mr-3">
-                <a class="nav-link" href="login.php">Connexion</a>
+                <a class="nav-link" href="./login.php">Connexion</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">A propos</a>
+                <a class="nav-link" href="./about.php">A propos</a>
             </li>
         </ul>
     </div>
-
 </nav>
 <!--/.Navbar-->
 
 <!--Section: Live preview-->
-<section class="form-dark form-connexion">
+<section class="form-dark form-connexion mt-5">
 
     <!--Form without header-->
     <div class="card card-image" style="background-image: url('./img/bg.jpg');  background-size: cover;">
@@ -114,7 +112,7 @@
 
 
 <!-- Footer -->
-<footer class="page-footer font-small indigo">
+<footer class="page-footer font-small footer fixed-bottom deep-purple darken-3">
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2019 Copyright:

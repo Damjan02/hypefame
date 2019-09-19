@@ -1,6 +1,15 @@
 <?php
 /**
  * Created by PhpStorm.
+ * User: Antonijevic_ni-esig
+ * Date: 19.09.2019
+ * Time: 09:25
+ */
+?>
+
+<?php
+/**
+ * Created by PhpStorm.
  * User: jovanovic_damj-esig
  * Date: 17.09.2019
  * Time: 15:58
@@ -33,9 +42,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
 </head>
-<body class="heavy-rain-gradient">
+<body class="blue-gradient">
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark deep-purple darken-3">
+<nav class="navbar navbar-expand-lg navbar-dark indigo">
 
     <a class="navbar-brand" href="./index.php">
         <div class="logo animated fadeInDown" style="background-image: url('img/svg/logo_nav.svg');"></div>
@@ -80,6 +89,8 @@
                     <span class="border-bottom border-primary" style="border-bottom: 2px solid !important;"></span>
                 </div>
             </div>
+
+
             <!--Body-->
             <div class="md-form">
                 <input type="text" id="Form-nom5" name="nom" class="form-control light-blue-text-text">
@@ -88,7 +99,7 @@
 
             <div class="md-form">
                 <input type="text" id="Form-prenom5" name="prenom" class="form-control white-text">
-                <label for="Form-prenom5j" class="white-text">Prénom</label>
+                <label for="Form-prenom5" class="white-text">Prénom</label>
             </div>
 
             <div class="md-form">
@@ -146,7 +157,7 @@
 
 
 <!-- Footer -->
-<footer class="page-footer font-small fixed-bottom deep-purple darken-3">
+<footer class="page-footer font-small indigo  fixed-bottom">
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2019 Copyright:
